@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetcore-sample", "dotnetcore-sample\dotnetcore-sample.csproj", "{E49391CB-8539-4F40-8B83-05FB6214B1B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcore-tests", "dotnetcore-tests\dotnetcore-tests.csproj", "{36163D65-CA2D-4BBB-B3FE-93185AF130D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetcore-tests", "dotnetcore-tests\dotnetcore-tests.csproj", "{36163D65-CA2D-4BBB-B3FE-93185AF130D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnit.Tests", "XUnitTexts\XUnit.Tests.csproj", "{5C11B9B6-CE10-45F4-A773-C9B00B67D133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{36163D65-CA2D-4BBB-B3FE-93185AF130D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36163D65-CA2D-4BBB-B3FE-93185AF130D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36163D65-CA2D-4BBB-B3FE-93185AF130D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C11B9B6-CE10-45F4-A773-C9B00B67D133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C11B9B6-CE10-45F4-A773-C9B00B67D133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C11B9B6-CE10-45F4-A773-C9B00B67D133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C11B9B6-CE10-45F4-A773-C9B00B67D133}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BCCF968-68CF-4A7C-9FFE-BA9DCE599B9F}
 	EndGlobalSection
 EndGlobal
